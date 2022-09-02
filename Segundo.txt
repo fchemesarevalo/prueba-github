@@ -2,6 +2,10 @@ Comandos utilizados:
 
 git status
 
+git add "archivo.extension"
+
+git add . (agrega todos los archivos que no estan siendo trackeados)
+
 git commit -m "mensaje"
 
 git log
