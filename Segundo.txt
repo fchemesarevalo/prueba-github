@@ -1,0 +1,9 @@
+Comandos utilizados:
+
+git status
+
+git commit -m "mensaje"
+
+git log
+
+git config --global use.name / user.email
