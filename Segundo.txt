@@ -19,3 +19,15 @@ git branch -m Main (cambio de nombre del branch)
 git checkout -b Cambio (cambia a un branch nuevo, y le pone nombre "Cambio")
 
 git merge Cambio (mete lo nuevo de "Cambio" en "Main")
+
+cd Cambiosbranch
+git rm cambiobranch.txt (elimina el archivo luego de haber hecho un cd a su carpeta). se puede seguir con un git commit
+
+git reset --hard HEAD~N (retrocede N commits hacia atras)
+
+git branch -D Cambio (borra el branch "Cambio")
+
+git checkout -- . (borra todos los cambios pendientes de git add .)
+
+git reset test.txt (devuelve los cambios que tienen git add . a pendientes de git add .)
+
