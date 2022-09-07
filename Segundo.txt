@@ -15,3 +15,7 @@ git config --global use.name / user.email
 git branch
 
 git branch -m Main (cambio de nombre del branch)
+
+git checkout -b Cambio (cambia a un branch nuevo, y le pone nombre "Cambio")
+
+git merge Cambio (mete lo nuevo de "Cambio" en "Main")
