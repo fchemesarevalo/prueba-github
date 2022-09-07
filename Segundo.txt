@@ -11,3 +11,7 @@ git commit -m "mensaje"
 git log
 
 git config --global use.name / user.email
+
+git branch
+
+git branch -m Main (cambio de nombre del branch)
